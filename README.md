@@ -49,7 +49,7 @@
 ## 📊 การอ่านค่าผลลัพธ์ (.csv)
 
 ### 1. Master Catalog (สารบัญรวมแม่ข่าย)
-ไฟล์สารบัญหลักจะถูกสร้างและอัปเดตโดยสคริปต์ [**`generate_master_csv.py`**](file:///home/pongsak/projects/nvidia-mim/generate_master_csv.py) ซึ่งจะรวบรวมผลลัพธ์จากการทดสอบ API ทุกตัวมาไว้ที่เดียว
+ไฟล์สารบัญหลักจะถูกสร้างและอัปเดตโดยสคริปต์ [**`generate_master_csv.py`**](file:///home/pongsak/projects/nvidia-mim/generate_master_csv.py) ซึ่งจะรวบรวมผลลัพธ์จากการทดสอบ API ทุกตัว (205 รายการ) มาไว้ในไฟล์เดียว
 
 *   **ไฟล์**: [**`master_models_catalog.csv`**](file:///home/pongsak/projects/nvidia-mim/master_models_catalog.csv)
 *   **รายละเอียดข้อมูล (Columns):**
