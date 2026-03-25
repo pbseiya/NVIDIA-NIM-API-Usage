@@ -1,0 +1,164 @@
+import os
+import time
+import re
+from openai import OpenAI
+from dotenv import load_dotenv
+from rich.console import Console
+from docx import Document
+from docx.shared import RGBColor, Pt, Cm
+
+load_dotenv()
+api_key = os.getenv("NVIDIA_NIM_API")
+# Base URL for NVIDIA NIM
+client = OpenAI(base_url="https://integrate.api.nvidia.com/v1", api_key=api_key)
+
+console = Console()
+
+
+def style_run(run, bold=False, italic=False, r=0, g=0, b=0, size=14):
+    """Helper function to apply styles to a run"""
+    run.bold = bold
+    run.italic = italic
+    run.font.color.rgb = RGBColor(r, g, b)
+    run.font.size = Pt(size)
+    run.font.name = "Cordia New"  # Good Thai font
+
+
+def create_docx(text, filename="Sea_Cat_and_Old_Turtle.docx"):
+    doc = Document()
+
+    # Custom Title & Formatting
+    title = doc.add_heading("แมวทะเล กับ ผู้เฒ่าเต่า (The Sea Cat and the Old Turtle)", 0)
+    title.runs[0].font.color.rgb = RGBColor(0, 102, 204)  # Sci-Fi Blue
+    title.runs[0].font.name = "Cordia New"
+
+    # Process text into paragraphs and simple markdown bold/italic
+    paragraphs = text.split("\n")
+    for p in paragraphs:
+        if not p.strip():
+            continue
+
+        # Add heading if line starts with #
+        if p.startswith("#"):
+            h_level = min(len(p) - len(p.lstrip("#")), 3)
+            clean_text = p.strip("# ")
+            head = doc.add_heading(clean_text, level=h_level)
+            head.runs[0].font.color.rgb = RGBColor(
+                153, 51, 255
+            )  # Purple accent for headings
+            continue
+
+        p_obj = doc.add_paragraph()
+        p_obj.paragraph_format.space_after = Pt(12)
+
+        # Super simple regex parser for **bold** and *italic*
+        # Need to capture overlapping or sequential markers loosely
+        parts = re.split(r"(\*\*.*?\*\*|\*.*?\*)", p)
+        for part in parts:
+            if not part:
+                continue
+            if part.startswith("**") and part.endswith("**"):
+                # Bold
+                r = p_obj.add_run(part[2:-2])
+                style_run(r, bold=True, r=204, g=0, b=0)  # Red for important bold
+            elif part.startswith("*") and part.endswith("*"):
+                # Italic
+                r = p_obj.add_run(part[1:-1])
+                style_run(
+                    r, italic=True, r=0, g=153, b=0
+                )  # Green for alien/italic terms
+            else:
+                # Normal text, let's highlight main characters
+                words = re.split(r"(แมวทะเล|ผู้เฒ่าเต่า)", part)
+                for w in words:
+                    r = p_obj.add_run(w)
+                    if w == "แมวทะเล":
+                        style_run(r, bold=True, r=0, g=153, b=255)  # Cyan for Sea Cat
+                    elif w == "ผู้เฒ่าเต่า":
+                        style_run(
+                            r, bold=True, r=102, g=51, b=0
+                        )  # Brown for Old Turtle
+                    else:
+                        style_run(r, r=50, g=50, b=50)  # Dark gray body text
+
+    doc.save(filename)
+    console.print(
+        f"\n[bold green]✅ บันทึกนิยายลงไฟล์ {filename} เรียบร้อยแล้ว พร้อมใส่สีสันและจัดทรงหนังสือ![/bold green]"
+    )
+
+
+def run_novel_generation():
+    model = "qwen/qwen3.5-397b-a17b"
+    
+    prompt = (
+        "คุณเป็นนักเขียนนิยายระดับแนวหน้า จงเขียนนิยายไซไฟ (Sci-Fi) ธีมอวกาศและทะเลดวงดาว เรื่อง 'แมวทะเล กับ ผู้เฒ่าเต่า' "
+        "ความยาวตลอดเรื่องสเกลใหญ่ประมาณ 10000 คำ ถ่ายทอดมิตรภาพต่างเผ่าพันธุ์ และการผจญภัยสุดล้ำ "
+        "โปรดเน้นคำสำคัญด้วย **ตัวหนา** หรือ *ตัวเอียง* อย่างเหมาะสม เพื่อให้จัดรูปแบบสวยงาม "
+        "ในข้อความแรกนี้ ให้เริ่มบรรยายบทนำและเนื้อเรื่องส่วนที่ 1 ก่อน แล้วเดี๋ยวจะให้เขียนเรื่องส่วนถัดไปเรื่อยๆ จนจบ"
+    )
+    
+    messages = [{"role": "user", "content": prompt}]
+    max_loops = 10 # รันสูงสุด 10 รอบ
+    full_text = ""
+    total_tokens = 0
+    total_time = 0
+    
+    console.print(f"[bold cyan]🚀 เริ่มมหกรรมเขียนนิยายต่อเนื่องด้วย {model}...[/bold cyan]")
+    
+    for loop in range(max_loops):
+        console.print(f"\n[bold yellow]📖 เริ่มดึงเนื้อหาส่วนที่ {loop+1}/{max_loops}...[/bold yellow]\n")
+        try:
+            start_time = time.time()
+            response = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                max_tokens=4000,
+                stream=True,
+                temperature=0.7
+            )
+            
+            chunk_text = ""
+            first_token_time = None
+            
+            for chunk in response:
+                if chunk.choices and chunk.choices[0].delta.content:
+                    if first_token_time is None:
+                        first_token_time = time.time()
+                    
+                    text = chunk.choices[0].delta.content
+                    chunk_text += text
+                    full_text += text
+                    total_tokens += 1
+                    print(text, end="", flush=True)
+                    
+            print("\n")
+            loop_gen_time = time.time() - start_time
+            total_time += loop_gen_time
+            
+            messages.append({"role": "assistant", "content": chunk_text})
+            
+            if len(full_text) > 40000:
+                console.print("\n[bold green]✅ ความยาวเนื้อหาถึงเป้าหมายแล้ว! จบการเขียน[/bold green]")
+                break
+                
+            if loop == max_loops - 2:
+                messages.append({"role": "user", "content": "จงเขียนสรุปบทจบของนิยายเรื่องนี้อย่างงดงามบริบูรณ์ในย่อหน้าถัดไป"})
+            else:
+                messages.append({"role": "user", "content": "เขียนเนื้อเรื่องต่อจากประโยคสุดท้ายแบบติดกันเลยให้ลื่นไหล (ห้ามเขียนเกริ่นนำ ให้พิมพ์เนื้อหาโผล่มาเลย)"})
+            
+            time.sleep(2)
+            
+        except Exception as e:
+            console.print(f"\n[bold red]❌ เซิร์ฟเวอร์ตัดสายหรือมีข้อผิดพลาด: {e}[/bold red]")
+            break
+            
+    create_docx(full_text)
+    
+    console.print("="*60)
+    console.print(f"[bold magenta]⏱️ Total Gen Time: {total_time:.2f} s[/bold magenta]")
+    console.print(f"[bold magenta]📚 Total Tokens: {total_tokens}[/bold magenta]")
+    console.print("="*60)
+
+
+if __name__ == "__main__":
+    run_novel_generation()

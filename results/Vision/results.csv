@@ -1,0 +1,10 @@
+Build NVIDIA URL (Model),API Model ID,Status,TTFT (s),TPS (tokens/s),Total Tokens,Error
+https://build.nvidia.com/meta/llama-3.2-11b-vision-instruct,meta/llama-3.2-11b-vision-instruct,Success,1.7191,65.20,9,-
+https://build.nvidia.com/meta/llama-3.2-90b-vision-instruct,meta/llama-3.2-90b-vision-instruct,Success,1.9450,21.11,37,-
+https://build.nvidia.com/microsoft/phi-3-vision-128k-instruct,microsoft/phi-3-vision-128k-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/microsoft/phi-3.5-vision-instruct,microsoft/phi-3.5-vision-instruct,Success,1.7321,70.37,12,-
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-nano-vl-8b-v1,nvidia/llama-3.1-nemotron-nano-vl-8b-v1,Success,5.7764,1665.73,1,-
+https://build.nvidia.com/nvidia/nemotron-nano-12b-v2-vl,nvidia/nemotron-nano-12b-v2-vl,Success,2.8644,135.29,50,-
+https://build.nvidia.com/nvidia/neva-22b,nvidia/neva-22b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/nvclip,nvidia/nvclip,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/vila,nvidia/vila,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)

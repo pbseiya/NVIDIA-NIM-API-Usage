@@ -1,0 +1,15 @@
+Build NVIDIA URL (Model),API Model ID,Status,TTFT (s),TPS (tokens/s),Total Tokens,Error
+https://build.nvidia.com/bigcode/starcoder2-15b,bigcode/starcoder2-15b,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/bigcode/starcoder2-7b,bigcode/starcoder2-7b,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/deepseek-ai/deepseek-coder-6.7b-instruct,deepseek-ai/deepseek-coder-6.7b-instruct,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/google/codegemma-1.1-7b,google/codegemma-1.1-7b,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/google/codegemma-7b,google/codegemma-7b,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/ibm/granite-34b-code-instruct,ibm/granite-34b-code-instruct,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/ibm/granite-8b-code-instruct,ibm/granite-8b-code-instruct,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/meta/codellama-70b,meta/codellama-70b,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/mistralai/codestral-22b-instruct-v0.1,mistralai/codestral-22b-instruct-v0.1,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/mistralai/mamba-codestral-7b-v0.1,mistralai/mamba-codestral-7b-v0.1,Success,0.7998,87.36,50,-
+https://build.nvidia.com/nvidia/usdcode-llama-3.1-70b-instruct,nvidia/usdcode-llama-3.1-70b-instruct,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/qwen/qwen2.5-coder-32b-instruct,qwen/qwen2.5-coder-32b-instruct,Success,0.3034,75.02,51,-
+https://build.nvidia.com/qwen/qwen2.5-coder-7b-instruct,qwen/qwen2.5-coder-7b-instruct,Success,0.8602,68.86,51,-
+https://build.nvidia.com/qwen/qwen3-coder-480b-a35b-instruct,qwen/qwen3-coder-480b-a35b-instruct,Success,0.9339,54.38,17,-

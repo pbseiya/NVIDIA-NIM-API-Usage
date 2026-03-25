@@ -1,0 +1,144 @@
+Build NVIDIA URL (Model),API Model ID,Status,TTFT (s),TPS (tokens/s),Total Tokens,Error
+https://build.nvidia.com/01-ai/yi-large,01-ai/yi-large,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/abacusai/dracarys-llama-3.1-70b-instruct,abacusai/dracarys-llama-3.1-70b-instruct,Success,0.4235,18.32,30,-
+https://build.nvidia.com/adept/fuyu-8b,adept/fuyu-8b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/ai21labs/jamba-1.5-large-instruct,ai21labs/jamba-1.5-large-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/ai21labs/jamba-1.5-mini-instruct,ai21labs/jamba-1.5-mini-instruct,Success,0.7647,6911.79,30,-
+https://build.nvidia.com/aisingapore/sea-lion-7b-instruct,aisingapore/sea-lion-7b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/baai/bge-m3,baai/bge-m3,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/baichuan-inc/baichuan2-13b-chat,baichuan-inc/baichuan2-13b-chat,Success,0.7432,46.06,30,-
+https://build.nvidia.com/bytedance/seed-oss-36b-instruct,bytedance/seed-oss-36b-instruct,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/databricks/dbrx-instruct,databricks/dbrx-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/deepseek-ai/deepseek-r1-distill-llama-8b,deepseek-ai/deepseek-r1-distill-llama-8b,Success,0.3065,32.08,31,-
+https://build.nvidia.com/deepseek-ai/deepseek-r1-distill-qwen-14b,deepseek-ai/deepseek-r1-distill-qwen-14b,Failed,-,-,-,"<html> | <head><title>502 Bad Gateway</title></head> | <body> | <center><h1>502 Bad Gateway</h1></center> | </body> | </html>"
+https://build.nvidia.com/deepseek-ai/deepseek-r1-distill-qwen-32b,deepseek-ai/deepseek-r1-distill-qwen-32b,Failed,-,-,-,peer closed connection without sending complete message body (incomplete chunked read)
+https://build.nvidia.com/deepseek-ai/deepseek-r1-distill-qwen-7b,deepseek-ai/deepseek-r1-distill-qwen-7b,Failed,-,-,-,Error code: 502
+https://build.nvidia.com/deepseek-ai/deepseek-v3.1,deepseek-ai/deepseek-v3.1,Success,4.8392,6.52,18,-
+https://build.nvidia.com/deepseek-ai/deepseek-v3.1-terminus,deepseek-ai/deepseek-v3.1-terminus,Success,1.0751,25.36,17,-
+https://build.nvidia.com/deepseek-ai/deepseek-v3.2,deepseek-ai/deepseek-v3.2,Success,213.8862,0.29,3,-
+https://build.nvidia.com/google/deplot,google/deplot,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/google/gemma-2-27b-it,google/gemma-2-27b-it,Success,0.3021,46.04,30,-
+https://build.nvidia.com/google/gemma-2-2b-it,google/gemma-2-2b-it,Success,0.9312,8066.52,28,-
+https://build.nvidia.com/google/gemma-2-9b-it,google/gemma-2-9b-it,Success,0.9184,91.01,30,-
+https://build.nvidia.com/google/gemma-2b,google/gemma-2b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/google/gemma-3-12b-it,google/gemma-3-12b-it,Success,29.9814,4.33,4,-
+https://build.nvidia.com/google/gemma-3-1b-it,google/gemma-3-1b-it,Success,0.5096,299.16,30,-
+https://build.nvidia.com/google/gemma-3-27b-it,google/gemma-3-27b-it,Success,0.4981,51.00,30,-
+https://build.nvidia.com/google/gemma-3-4b-it,google/gemma-3-4b-it,Success,34.5518,7.82,4,-
+https://build.nvidia.com/google/gemma-3n-e2b-it,google/gemma-3n-e2b-it,Success,0.6224,25.84,30,-
+https://build.nvidia.com/google/gemma-3n-e4b-it,google/gemma-3n-e4b-it,Success,0.6136,23.00,30,-
+https://build.nvidia.com/google/gemma-7b,google/gemma-7b,Success,0.4961,42.73,30,-
+https://build.nvidia.com/google/paligemma,google/paligemma,Failed,-,-,-,"Error code: 500 - {'error': 'Expected exactly one image, got 0'}"
+https://build.nvidia.com/google/recurrentgemma-2b,google/recurrentgemma-2b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/google/shieldgemma-9b,google/shieldgemma-9b,Success,0.7157,2493.64,1,-
+https://build.nvidia.com/gotocompany/gemma-2-9b-cpt-sahabatai-instruct,gotocompany/gemma-2-9b-cpt-sahabatai-instruct,Success,0.9227,151.14,31,-
+https://build.nvidia.com/ibm/granite-3.0-3b-a800m-instruct,ibm/granite-3.0-3b-a800m-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/ibm/granite-3.0-8b-instruct,ibm/granite-3.0-8b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/ibm/granite-3.3-8b-instruct,ibm/granite-3.3-8b-instruct,Failed,-,-,-,Error code: 504
+https://build.nvidia.com/igenius/colosseum_355b_instruct_16k,igenius/colosseum_355b_instruct_16k,Failed,-,-,-,Error code: 504
+https://build.nvidia.com/igenius/italia_10b_instruct_16k,igenius/italia_10b_instruct_16k,Success,0.6821,84.28,30,-
+https://build.nvidia.com/institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1,institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1,Success,0.8819,25.76,30,-
+https://build.nvidia.com/institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1,institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1,Success,0.8586,118.85,30,-
+https://build.nvidia.com/marin/marin-8b-instruct,marin/marin-8b-instruct,Success,0.8698,13607.89,31,-
+https://build.nvidia.com/mediatek/breeze-7b-instruct,mediatek/breeze-7b-instruct,Success,0.8543,137.45,30,-
+https://build.nvidia.com/meta/llama-3.1-405b-instruct,meta/llama-3.1-405b-instruct,Success,0.5049,42.71,30,-
+https://build.nvidia.com/meta/llama-3.1-70b-instruct,meta/llama-3.1-70b-instruct,Success,0.4740,86.89,30,-
+https://build.nvidia.com/meta/llama-3.1-8b-instruct,meta/llama-3.1-8b-instruct,Success,0.4507,210.09,30,-
+https://build.nvidia.com/meta/llama-3.2-1b-instruct,meta/llama-3.2-1b-instruct,Success,0.8209,6682.95,31,-
+https://build.nvidia.com/meta/llama-3.2-3b-instruct,meta/llama-3.2-3b-instruct,Success,0.6922,103.70,31,-
+https://build.nvidia.com/meta/llama-3.3-70b-instruct,meta/llama-3.3-70b-instruct,Success,1.3776,66.56,30,-
+https://build.nvidia.com/meta/llama-4-maverick-17b-128e-instruct,meta/llama-4-maverick-17b-128e-instruct,Success,0.4804,128.76,30,-
+https://build.nvidia.com/meta/llama-4-scout-17b-16e-instruct,meta/llama-4-scout-17b-16e-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/meta/llama2-70b,meta/llama2-70b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/meta/llama3-70b-instruct,meta/llama3-70b-instruct,Success,0.3048,39.50,30,-
+https://build.nvidia.com/meta/llama3-8b-instruct,meta/llama3-8b-instruct,Success,0.4539,69.31,30,-
+https://build.nvidia.com/microsoft/kosmos-2,microsoft/kosmos-2,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/microsoft/phi-3-medium-128k-instruct,microsoft/phi-3-medium-128k-instruct,Success,0.7172,30.82,30,-
+https://build.nvidia.com/microsoft/phi-3-medium-4k-instruct,microsoft/phi-3-medium-4k-instruct,Success,0.8847,109.53,30,-
+https://build.nvidia.com/microsoft/phi-3-mini-128k-instruct,microsoft/phi-3-mini-128k-instruct,Success,0.8732,77.84,30,-
+https://build.nvidia.com/microsoft/phi-3-mini-4k-instruct,microsoft/phi-3-mini-4k-instruct,Success,1.0103,10404.26,30,-
+https://build.nvidia.com/microsoft/phi-3-small-128k-instruct,microsoft/phi-3-small-128k-instruct,Success,0.8800,72.24,2,-
+https://build.nvidia.com/microsoft/phi-3-small-8k-instruct,microsoft/phi-3-small-8k-instruct,Success,0.8721,4871.43,2,-
+https://build.nvidia.com/microsoft/phi-3.5-mini-instruct,microsoft/phi-3.5-mini-instruct,Success,0.8726,71.32,30,-
+https://build.nvidia.com/microsoft/phi-3.5-moe-instruct,microsoft/phi-3.5-moe-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/microsoft/phi-4-mini-flash-reasoning,microsoft/phi-4-mini-flash-reasoning,Success,0.6759,8122.72,30,-
+https://build.nvidia.com/microsoft/phi-4-mini-instruct,microsoft/phi-4-mini-instruct,Failed,-,-,-,Error code: 504
+https://build.nvidia.com/microsoft/phi-4-multimodal-instruct,microsoft/phi-4-multimodal-instruct,Success,0.2940,86.57,30,-
+https://build.nvidia.com/minimaxai/minimax-m2.1,minimaxai/minimax-m2.1,Success,2.5343,8.52,4,-
+https://build.nvidia.com/minimaxai/minimax-m2.5,minimaxai/minimax-m2.5,Success,272.6748,1.67,4,-
+https://build.nvidia.com/mistralai/devstral-2-123b-instruct-2512,mistralai/devstral-2-123b-instruct-2512,Success,0.4959,53.65,30,-
+https://build.nvidia.com/mistralai/magistral-small-2506,mistralai/magistral-small-2506,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/mistralai/mathstral-7b-v0.1,mistralai/mathstral-7b-v0.1,Success,0.4815,49.83,30,-
+https://build.nvidia.com/mistralai/ministral-14b-instruct-2512,mistralai/ministral-14b-instruct-2512,Success,0.5344,42.71,30,-
+https://build.nvidia.com/mistralai/mistral-7b-instruct-v0.2,mistralai/mistral-7b-instruct-v0.2,Success,0.4694,49.85,30,-
+https://build.nvidia.com/mistralai/mistral-7b-instruct-v0.3,mistralai/mistral-7b-instruct-v0.3,Success,0.4781,51.50,30,-
+https://build.nvidia.com/mistralai/mistral-large,mistralai/mistral-large,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/mistralai/mistral-large-2-instruct,mistralai/mistral-large-2-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/mistralai/mistral-large-3-675b-instruct-2512,mistralai/mistral-large-3-675b-instruct-2512,Success,1.1434,37.51,30,-
+https://build.nvidia.com/mistralai/mistral-medium-3-instruct,mistralai/mistral-medium-3-instruct,Success,0.4583,45.83,30,-
+https://build.nvidia.com/mistralai/mistral-nemotron,mistralai/mistral-nemotron,Success,0.9289,1097.54,30,-
+https://build.nvidia.com/mistralai/mistral-small-24b-instruct,mistralai/mistral-small-24b-instruct,Success,0.4697,32.23,31,-
+https://build.nvidia.com/mistralai/mistral-small-3.1-24b-instruct-2503,mistralai/mistral-small-3.1-24b-instruct-2503,Success,0.4879,20.17,30,-
+https://build.nvidia.com/mistralai/mistral-small-4-119b-2603,mistralai/mistral-small-4-119b-2603,Success,0.4571,162.30,30,-
+https://build.nvidia.com/mistralai/mixtral-8x22b-instruct-v0.1,mistralai/mixtral-8x22b-instruct-v0.1,Success,0.4557,64.13,30,-
+https://build.nvidia.com/mistralai/mixtral-8x22b-v0.1,mistralai/mixtral-8x22b-v0.1,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/mistralai/mixtral-8x7b-instruct-v0.1,mistralai/mixtral-8x7b-instruct-v0.1,Success,0.6824,212.71,30,-
+https://build.nvidia.com/moonshotai/kimi-k2-instruct,moonshotai/kimi-k2-instruct,Success,0.7645,6.57,4,-
+https://build.nvidia.com/moonshotai/kimi-k2-instruct-0905,moonshotai/kimi-k2-instruct-0905,Success,0.7589,16.69,4,-
+https://build.nvidia.com/moonshotai/kimi-k2-thinking,moonshotai/kimi-k2-thinking,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/moonshotai/kimi-k2.5,moonshotai/kimi-k2.5,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/nv-mistralai/mistral-nemo-12b-instruct,nv-mistralai/mistral-nemo-12b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/cosmos-reason2-8b,nvidia/cosmos-reason2-8b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/gliner-pii,nvidia/gliner-pii,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-51b-instruct,nvidia/llama-3.1-nemotron-51b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-70b-instruct,nvidia/llama-3.1-nemotron-70b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-nano-4b-v1.1,nvidia/llama-3.1-nemotron-nano-4b-v1.1,Failed,-,-,-,Error code: 504
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-nano-8b-v1,nvidia/llama-3.1-nemotron-nano-8b-v1,Success,36.6897,10364.56,31,-
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-ultra-253b-v1,nvidia/llama-3.1-nemotron-ultra-253b-v1,Success,0.6733,57.43,24,-
+https://build.nvidia.com/nvidia/llama-3.3-nemotron-super-49b-v1,nvidia/llama-3.3-nemotron-super-49b-v1,Success,0.8960,187.52,31,-
+https://build.nvidia.com/nvidia/llama-3.3-nemotron-super-49b-v1.5,nvidia/llama-3.3-nemotron-super-49b-v1.5,Success,0.4544,81.48,30,-
+https://build.nvidia.com/nvidia/llama3-chatqa-1.5-70b,nvidia/llama3-chatqa-1.5-70b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/llama3-chatqa-1.5-8b,nvidia/llama3-chatqa-1.5-8b,Success,0.6855,3241.35,1,-
+https://build.nvidia.com/nvidia/mistral-nemo-minitron-8b-8k-instruct,nvidia/mistral-nemo-minitron-8b-8k-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/mistral-nemo-minitron-8b-base,nvidia/mistral-nemo-minitron-8b-base,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/nemotron-3-nano-30b-a3b,nvidia/nemotron-3-nano-30b-a3b,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b,nvidia/nemotron-3-super-120b-a12b,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/nvidia/nemotron-4-340b-instruct,nvidia/nemotron-4-340b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/nemotron-4-mini-hindi-4b-instruct,nvidia/nemotron-4-mini-hindi-4b-instruct,Success,0.2705,96.73,30,-
+https://build.nvidia.com/nvidia/nemotron-mini-4b-instruct,nvidia/nemotron-mini-4b-instruct,Success,0.8392,9171.89,30,-
+https://build.nvidia.com/nvidia/nemotron-nano-3-30b-a3b,nvidia/nemotron-nano-3-30b-a3b,Failed,-,-,-,"Error code: 404 - {'error': {'message': 'The model `nvidia/nemotron-nano-3-30b-a3b` does not exist.', 'type': 'NotFoundError', 'param': 'model', 'code': 404}}"
+https://build.nvidia.com/nvidia/nvidia-nemotron-nano-9b-v2,nvidia/nvidia-nemotron-nano-9b-v2,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/nvidia/riva-translate-4b-instruct,nvidia/riva-translate-4b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/riva-translate-4b-instruct-v1.1,nvidia/riva-translate-4b-instruct-v1.1,Success,0.6733,8142.70,10,-
+https://build.nvidia.com/openai/gpt-oss-120b,openai/gpt-oss-120b,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/openai/gpt-oss-120b,openai/gpt-oss-120b,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/openai/gpt-oss-20b,openai/gpt-oss-20b,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/openai/gpt-oss-20b,openai/gpt-oss-20b,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/opengpt-x/teuken-7b-instruct-commercial-v0.4,opengpt-x/teuken-7b-instruct-commercial-v0.4,Success,0.8356,102.55,30,-
+https://build.nvidia.com/qwen/qwen2-7b-instruct,qwen/qwen2-7b-instruct,Success,0.8961,148.30,30,-
+https://build.nvidia.com/qwen/qwen2.5-7b-instruct,qwen/qwen2.5-7b-instruct,Success,2.1746,28.60,31,-
+https://build.nvidia.com/qwen/qwen3-next-80b-a3b-instruct,qwen/qwen3-next-80b-a3b-instruct,Success,0.4841,9.20,4,-
+https://build.nvidia.com/qwen/qwen3-next-80b-a3b-thinking,qwen/qwen3-next-80b-a3b-thinking,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/qwen/qwen3.5-122b-a10b,qwen/qwen3.5-122b-a10b,Success,49.4852,6.31,4,-
+https://build.nvidia.com/qwen/qwen3.5-397b-a17b,qwen/qwen3.5-397b-a17b,Success,91.6357,2.49,4,-
+https://build.nvidia.com/qwen/qwq-32b,qwen/qwq-32b,Success,0.5894,29.18,31,-
+https://build.nvidia.com/rakuten/rakutenai-7b-chat,rakuten/rakutenai-7b-chat,Success,0.9916,19.78,2,-
+https://build.nvidia.com/rakuten/rakutenai-7b-instruct,rakuten/rakutenai-7b-instruct,Success,1.0148,5047.30,2,-
+https://build.nvidia.com/sarvamai/sarvam-m,sarvamai/sarvam-m,Success,0.9214,52.75,31,-
+https://build.nvidia.com/speakleash/bielik-11b-v2.3-instruct,speakleash/bielik-11b-v2.3-instruct,Success,0.9006,176.01,31,-
+https://build.nvidia.com/speakleash/bielik-11b-v2.6-instruct,speakleash/bielik-11b-v2.6-instruct,Success,0.8325,49.24,30,-
+https://build.nvidia.com/stepfun-ai/step-3.5-flash,stepfun-ai/step-3.5-flash,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/stockmark/stockmark-2-100b-instruct,stockmark/stockmark-2-100b-instruct,Success,0.8414,30.88,30,-
+https://build.nvidia.com/thudm/chatglm3-6b,thudm/chatglm3-6b,Success,0.8175,182.89,30,-
+https://build.nvidia.com/tiiuae/falcon3-7b-instruct,tiiuae/falcon3-7b-instruct,Success,0.9065,169.94,30,-
+https://build.nvidia.com/tokyotech-llm/llama-3-swallow-70b-instruct-v0.1,tokyotech-llm/llama-3-swallow-70b-instruct-v0.1,Success,0.8547,25.66,30,-
+https://build.nvidia.com/upstage/solar-10.7b-instruct,upstage/solar-10.7b-instruct,Success,0.8789,60.79,30,-
+https://build.nvidia.com/utter-project/eurollm-9b-instruct,utter-project/eurollm-9b-instruct,Success,0.8211,244.25,31,-
+https://build.nvidia.com/writer/palmyra-creative-122b,writer/palmyra-creative-122b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/writer/palmyra-fin-70b-32k,writer/palmyra-fin-70b-32k,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/writer/palmyra-med-70b,writer/palmyra-med-70b,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/writer/palmyra-med-70b-32k,writer/palmyra-med-70b-32k,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/yentinglin/llama-3-taiwan-70b-instruct,yentinglin/llama-3-taiwan-70b-instruct,Success,0.6430,44.44,30,-
+https://build.nvidia.com/z-ai/glm4.7,z-ai/glm4.7,Failed: No Content,-,-,-,Empty response
+https://build.nvidia.com/z-ai/glm5,z-ai/glm5,Success,130.3282,5.21,4,-
+https://build.nvidia.com/zyphra/zamba2-7b-instruct,zyphra/zamba2-7b-instruct,Failed,-,-,-,404 Not Found (Account missing specific permission / Gated Model)

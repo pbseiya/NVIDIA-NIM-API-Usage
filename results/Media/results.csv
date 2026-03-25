@@ -1,0 +1,11 @@
+Build NVIDIA URL (Model),API Model ID,Status,Latency (s),Media Type,Error
+https://build.nvidia.com/stabilityai/stable-diffusion-3-medium,stabilityai/stable-diffusion-3-medium,Success,3.23,image,-
+https://build.nvidia.com/stabilityai/sdxl-turbo,stabilityai/sdxl-turbo,Failed,-,image,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/stabilityai/sdxl-turbo (Model requires an Enterprise specific entitlement on your NVIDIA account)
+https://build.nvidia.com/black-forest-labs/flux.1-schnell,black-forest-labs/flux.1-schnell,Success,9.43,image,-
+https://build.nvidia.com/black-forest-labs/flux.1-dev,black-forest-labs/flux.1-dev,Success,5.30,image,-
+https://build.nvidia.com/nvidia/edify,nvidia/edify,Failed,-,image,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/nvidia/edify (Model requires an Enterprise specific entitlement on your NVIDIA account)
+https://build.nvidia.com/stabilityai/stable-video-diffusion,stabilityai/stable-video-diffusion,Failed,-,video,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/stabilityai/stable-video-diffusion (Model requires an Enterprise specific entitlement on your NVIDIA account)
+https://build.nvidia.com/kling,kling,Failed,-,video,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/kling (Model requires an Enterprise specific entitlement on your NVIDIA account)
+https://build.nvidia.com/nvidia/trellis,nvidia/trellis,Failed,-,3d,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/nvidia/trellis (Model requires an Enterprise specific entitlement on your NVIDIA account)
+https://build.nvidia.com/nvidia/latte3d,nvidia/latte3d,Failed,-,3d,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/nvidia/latte3d (Model requires an Enterprise specific entitlement on your NVIDIA account)
+https://build.nvidia.com/nvidia/edify-3d,nvidia/edify-3d,Failed,-,3d,404 Client Error: Not Found for url: https://ai.api.nvidia.com/v1/genai/nvidia/edify-3d (Model requires an Enterprise specific entitlement on your NVIDIA account)

@@ -1,0 +1,74 @@
+[
+    {
+        "model": "meta/llama-3.1-8b-instruct",
+        "category": "Text",
+        "status": "Failed",
+        "TTFT (s)": 0.7095,
+        "Status": "Success",
+        "Total Tokens": 7,
+        "TPS": 61.51
+    },
+    {
+        "model": "google/gemma-2-9b-it",
+        "category": "Text",
+        "status": "Failed",
+        "TTFT (s)": 0.6735,
+        "Status": "Success",
+        "Total Tokens": 3,
+        "TPS": 1414.61
+    },
+    {
+        "model": "qwen/qwen2.5-coder-7b-instruct",
+        "category": "Code",
+        "status": "Failed",
+        "TTFT (s)": 0.5058,
+        "Status": "Success",
+        "Total Tokens": 151,
+        "TPS": 46.1
+    },
+    {
+        "model": "ibm/granite-8b-code-instruct",
+        "category": "Code",
+        "status": "Failed",
+        "Error": "Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': \"Function 'af7b6f03-f615-4c5f-86c6-388bd35cede0': Not found for account '6-jPe4W-T2NyBPU1LLPRDnW4pbqJILdN0KdidbiyiOk'\"}"
+    },
+    {
+        "model": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+        "category": "Safety",
+        "status": "Failed",
+        "TTFT (s)": 0.6408,
+        "Status": "Success",
+        "Total Tokens": 20,
+        "TPS": 8951.67
+    },
+    {
+        "model": "nvidia/neva-22b",
+        "category": "Vision",
+        "status": "Failed",
+        "Error": "Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': \"Function 'bc205f8e-1740-40df-8d32-c4321763498a': Not found for account '6-jPe4W-T2NyBPU1LLPRDnW4pbqJILdN0KdidbiyiOk'\"}"
+    },
+    {
+        "model": "meta/llama-3.2-11b-vision-instruct",
+        "category": "Vision",
+        "status": "Failed",
+        "Error": "Internal Server Error"
+    },
+    {
+        "model": "nvidia/nv-embedqa-e5-v5",
+        "category": "Embedding",
+        "status": "Failed",
+        "Error": "Error code: 400 - {'error': \"'input_type' parameter is required for asymmetric models\"}"
+    },
+    {
+        "model": "snowflake/arctic-embed-l",
+        "category": "Embedding",
+        "status": "Failed",
+        "Error": "Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': \"Function '1528a0ad-205a-46ac-a783-94e2372586a9': Not found for account '6-jPe4W-T2NyBPU1LLPRDnW4pbqJILdN0KdidbiyiOk'\"}"
+    },
+    {
+        "model": "nvidia/streampetr",
+        "category": "Video_Audio_Other",
+        "status": "Failed",
+        "Error": "Error code: 404 - {'detail': 'Not Found'}"
+    }
+]

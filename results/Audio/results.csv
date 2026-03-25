@@ -1,0 +1,7 @@
+Build NVIDIA URL (Model),API Model ID,Model Name,Type,Status,Latency (s),Result/Transcript
+https://build.nvidia.com/nvidia/magpie-tts-multilingual,nvidia/magpie-tts-multilingual,magpie-tts-multilingual,TTS,Success,2.95,"Voice: Aria, Characters: 78"
+https://build.nvidia.com/nvidia/canary-1b,nvidia/canary-1b,canary-1b,ASR,Success,1.22,"Experience the future of speech AI with Riva, where every word comes to life. "
+https://build.nvidia.com/nvidia/parakeet-ctc-1_1b-asr,nvidia/parakeet-ctc-1_1b-asr,parakeet-ctc-1.1b-asr,ASR,Success,2.72,Experience 
+https://build.nvidia.com/nvidia/parakeet-ctc-0_6b-asr,nvidia/parakeet-ctc-0_6b-asr,parakeet-ctc-0.6b-asr,ASR,Success,1.58,Experience the future of speech Ai with Reva where every word comes to life. 
+https://build.nvidia.com/nvidia/parakeet-tdt-0_6b-v2,nvidia/parakeet-tdt-0_6b-v2,parakeet-tdt-0.6b-v2,ASR,Success,2.54,"Experience the future of speech, AI with Riva, where every word comes to life. "
+https://build.nvidia.com/nvidia/nemotron-asr-streaming,nvidia/nemotron-asr-streaming,nemotron-asr-streaming,ASR,Success,2.08,Experience the future of speech AI with Riva where every word comes to life 

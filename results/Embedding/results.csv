@@ -1,0 +1,15 @@
+Build NVIDIA URL (Model),API Model ID,Status,API Latency (s),Dimension,Error
+https://build.nvidia.com/nvidia/embed-qa-4,nvidia/embed-qa-4,Failed,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1,nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1,Success,0.5393,2048,-
+https://build.nvidia.com/nvidia/llama-3.2-nemoretriever-300m-embed-v1,nvidia/llama-3.2-nemoretriever-300m-embed-v1,Success,0.9673,2048,-
+https://build.nvidia.com/nvidia/llama-3.2-nv-embedqa-1b-v1,nvidia/llama-3.2-nv-embedqa-1b-v1,Failed,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/llama-3.2-nv-embedqa-1b-v2,nvidia/llama-3.2-nv-embedqa-1b-v2,Success,0.9109,2048,-
+https://build.nvidia.com/nvidia/llama-nemotron-embed-1b-v2,nvidia/llama-nemotron-embed-1b-v2,Success,0.6102,2048,-
+https://build.nvidia.com/nvidia/llama-nemotron-embed-vl-1b-v2,nvidia/llama-nemotron-embed-vl-1b-v2,Success,0.9012,2048,-
+https://build.nvidia.com/nvidia/nemoretriever-parse,nvidia/nemoretriever-parse,Failed,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/nemotron-parse,nvidia/nemotron-parse,Failed,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/nvidia/nv-embed-v1,nvidia/nv-embed-v1,Success,0.6704,4096,-
+https://build.nvidia.com/nvidia/nv-embedcode-7b-v1,nvidia/nv-embedcode-7b-v1,Success,0.7618,4096,-
+https://build.nvidia.com/nvidia/nv-embedqa-e5-v5,nvidia/nv-embedqa-e5-v5,Success,0.5135,1024,-
+https://build.nvidia.com/nvidia/nv-embedqa-mistral-7b-v2,nvidia/nv-embedqa-mistral-7b-v2,Failed,-,-,404 Not Found (Account missing specific permission / Gated Model)
+https://build.nvidia.com/snowflake/arctic-embed-l,snowflake/arctic-embed-l,Failed,-,-,404 Not Found (Account missing specific permission / Gated Model)

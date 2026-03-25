@@ -1,0 +1,9 @@
+Build NVIDIA URL (Model),API Model ID,Status,TTFT (s),TPS (tokens/s),Total Tokens,Error
+https://build.nvidia.com/ibm/granite-guardian-3.0-8b,ibm/granite-guardian-3.0-8b,Success,0.6373,3751.61,1,-
+https://build.nvidia.com/meta/llama-guard-4-12b,meta/llama-guard-4-12b,Success,0.8278,3054.85,1,-
+https://build.nvidia.com/nvidia/llama-3.1-nemoguard-8b-content-safety,nvidia/llama-3.1-nemoguard-8b-content-safety,Success,0.8714,7576.07,8,-
+https://build.nvidia.com/nvidia/llama-3.1-nemoguard-8b-topic-control,nvidia/llama-3.1-nemoguard-8b-topic-control,Success,0.9260,5475.59,3,-
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-70b-reward,nvidia/llama-3.1-nemotron-70b-reward,Success,0.5509,4514.86,1,-
+https://build.nvidia.com/nvidia/llama-3.1-nemotron-safety-guard-8b-v3,nvidia/llama-3.1-nemotron-safety-guard-8b-v3,Success,0.9642,16108.70,8,-
+https://build.nvidia.com/nvidia/nemotron-4-340b-reward,nvidia/nemotron-4-340b-reward,Failed,-,-,-,404 Not Found (Missing API Permission / Gated Model)
+https://build.nvidia.com/nvidia/nemotron-content-safety-reasoning-4b,nvidia/nemotron-content-safety-reasoning-4b,Success,0.6265,247.86,30,-
